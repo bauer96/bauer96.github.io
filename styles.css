@@ -60,6 +60,8 @@ body {
 .post-author img,
 .about-author img {
   border-radius: 50%;
+  width: 75px;
+  height:75px;
 }
 
 .post-author span {
@@ -81,12 +83,32 @@ h1, h2, h3, h4 {
 
 p {
   line-height: 1.5;
+  font-weight: bold;
 }
 .about {
   text-align: center;
 }
 
 .post-container:nth-child(even) { background-color: #f2f2f2; }
+
+img {
+  border-radius: 25px;
+}
+
+.content {
+  display: flex;
+  margin: 0px;
+  line-height: 1.5;
+  }
+
+.content > img {
+  width: 50%;
+  height: auto;
+  max-height: 250px;
+  padding-right: 10px;
+}
+
+
 
 
 
@@ -119,6 +141,7 @@ p {
 a {
   color: #1abc9c;
   text-decoration: none;
+  font-size: 12px;
 }
 
 a:hover {
